@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+        
+        <div class="game-info">
+            <div class="status" id="status">Player X's turn</div>
+            <button class="restart-btn" id="restartBtn">Restart Game</button>
+        </div>
+        
+        <div class="board" id="board" role="grid" aria-label="Tic-Tac-Toe board">
+            <button class="cell" data-index="0" aria-label="Cell 1"></button>
+            <button class="cell" data-index="1" aria-label="Cell 2"></button>
+            <button class="cell" data-index="2" aria-label="Cell 3"></button>
+            <button class="cell" data-index="3" aria-label="Cell 4"></button>
+            <button class="cell" data-index="4" aria-label="Cell 5"></button>
+            <button class="cell" data-index="5" aria-label="Cell 6"></button>
+            <button class="cell" data-index="6" aria-label="Cell 7"></button>
+            <button class="cell" data-index="7" aria-label="Cell 8"></button>
+            <button class="cell" data-index="8" aria-label="Cell 9"></button>
+        </div>
+        
+        <div class="instructions">
+            <p><strong>Keyboard Support:</strong> Use number keys 1-9 to play (1 = top-left, 9 = bottom-right)</p>
+            <p>Press 'R' to restart the game</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
