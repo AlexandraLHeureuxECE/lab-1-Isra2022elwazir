@@ -39,7 +39,7 @@ A simple, web-based Tic-Tac-Toe game for two players on the same device.
 
 ## GitHub Pages Deployment
 
-**GitHub Pages URL**: [Your GitHub Pages URL will appear here after deployment]
+**GitHub Pages URL**: https://alexandralheureuxece.github.io/lab-1-Isra2022elwazir/
 
 To deploy:
 1. Go to your repository settings on GitHub
